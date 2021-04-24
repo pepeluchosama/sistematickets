@@ -1,0 +1,42 @@
+/* IMPORTANT es la mayor jerarquia*/ 
+p { color: red;
+}
+/* --------------------------  jerarquia -------------------------------------------
+
+/* ESTILIO EN LINEA MAYOR JERARQUIA osea el que se coloca directamente en el HTML
+
+/* --------------------------  jerarquia -------------------------------------------
+
+/* por id */
+#id_prueba{ color: rgb(229, 255, 0);
+}
+/* --------------------------  jerarquia CASCADA-------------------------------------------
+/* por clase */
+.clase{ color: rgb(0, 255, 34);
+}
+/* por atributo */
+[caca="popo"]{
+    color:rgb(0, 89, 255);
+}
+/* por pseudo clase (cuando pasa el mouse por encima) */
+.clase:hover{
+    color:rgb(225, 0, 255);
+}
+
+/* --------------------------  jerarquia CASCADA-------------------------------------------
+
+/* por descendencia */
+nav h1{
+    color:rgb(0, 255, 255);
+}
+/* por tag */
+p { color: red;
+}
+/* por pseudo elemento (cuando pasa el mouse por encima) */
+nav:hover{
+    color:rgb(38, 0, 255);
+}
+
+/* por global */
+* { color: red;
+}

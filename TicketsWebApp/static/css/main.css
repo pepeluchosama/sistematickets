@@ -1,0 +1,32 @@
+#color-navar {
+    background-color:rgb(211, 210, 210);
+
+}
+
+
+body {
+    background-image: url(https://www.incites.eu/sites/default/files/styles/1349x900/public/md-slider-image/slide1_0.jpg?itok=K0UAFoHN);
+    background-size: cover;
+}
+
+.login-container{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 50px;
+}
+
+.form{
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.caja-derecha{
+    background-color: white;
+    
+}
